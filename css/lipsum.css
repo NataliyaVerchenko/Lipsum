@@ -112,6 +112,15 @@ border-bottom: 2px solid  #bfc0c3;
     display: inline-block;
 
 }
+.list-brands >li >.img-brands{
+    width: 16%;
+    display: block;
+
+    margin-left: -16px;
+    margin-right: -16px;
+
+}
+
 .footer-logo{
     text-align: center;
 }
