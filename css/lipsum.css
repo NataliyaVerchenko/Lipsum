@@ -1,8 +1,15 @@
 body{
+
     font-family: sans-serif;
     font-size: 14px;
     margin: 0;
     color: gray;
+
+}
+.body-backrg{
+
+    background-color: rgba(193, 193, 193, 0.37)
+
 }
 * {
     box-sizing: border-box;
@@ -20,7 +27,8 @@ h2{
     font-size: 15px;
 }
 .wrapper{
-     max-width: 1200px;
+    background-color: white;
+     max-width: 1100px;
      margin-left: auto;
      margin-right: auto;
      margin-top:20px;
@@ -95,6 +103,26 @@ border-bottom: 2px solid  #bfc0c3;
     border-top: 1px solid #d2d2d2;
     border-bottom: 1px solid #d2d2d2;
 }
+.list-info >li{
+    display: inline;
+
+    border: 1px solid #ccc;
+    float: left;
+    width: 33%;
+}
+.colomn-product >li{
+    padding: 2em;
+    width: 50%;
+    float: left;
+    margin-right: 0%;
+    display: inline;
+}
+.img-product >img{
+    width: 100%;
+}
+.img-product-btm >li{
+    display: inline-block;
+}
 .clearfix {
     clear: both;
 }
@@ -115,9 +143,8 @@ border-bottom: 2px solid  #bfc0c3;
 .list-brands >li >.img-brands{
     width: 16%;
     display: block;
-
-    margin-left: -16px;
-    margin-right: -16px;
+    margin-left: -20px;
+    margin-right: -24px;
 
 }
 
