@@ -8,7 +8,7 @@ body{
 }
 .body-backrg{
 
-    background-color: rgba(193, 193, 193, 0.37)
+    background-color: #a9a9a999;
 
 }
 * {
@@ -22,9 +22,9 @@ ul {
 }
 h2{
     text-transform: uppercase;
-    color: grey;
-    font-weight: 300;
-    font-size: 15px;
+    color: #3b3b3b;
+    font-weight: 400;
+    font-size: 18px;
 }
 .wrapper{
     background-color: white;
@@ -40,77 +40,111 @@ h2{
 .main{
     width:100%;
 }
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.clearfix {
+    clear: both;
+}
+.no-border{
+    border-bottom: none;
+}
+button{
+    background-color: black;
+    color: #fff;
+    float: right;
+}
+
+/* ************    Шапка сайта      *********/
  .header-logo{
- margin-right: -15px;
- margin-left: -15px;
+     margin-right: -15px;
+     margin-left: -15px;
  }
  .col-logo{
- float:left;
- border-right: 1px solid grey;
- width: 33.33333333%;
- padding-right: 15px;
- padding-left: 15px;
- }
- .col-text-info{
-  padding-left: 15px;
-  width:auto;
- }
- .container {
+     float:left;
+     border-right: 1px solid grey;
+     width: 33.33333333%;
      padding-right: 15px;
      padding-left: 15px;
-     margin-right: auto;
-     margin-left: auto;
  }
-
-
-
- .menu-nav{
-padding-left: 0;
-list-style: none;
-border-top: 2px solid  #bfc0c3;
-border-bottom: 2px solid  #bfc0c3;
-
-
-
+ .col-text-info{
+     padding-left: 15px;
+     width:auto;
  }
-  .menu-nav >li{
-  display: inline-block;
-  text-transform: uppercase;
-  padding: 10px 25px;
-  font-size: large;
-
-  }
-    .menu-nav >li >a{
+.menu-nav{
+    padding-left: 0;
+    list-style: none;
+    border-top: 2px solid  #bfc0c3;
+    border-bottom: 2px solid  #bfc0c3;
+}
+.menu-nav >li{
+      display: inline-block;
+      text-transform: uppercase;
+      padding: 10px 25px;
+      font-size: large;
+}
+.menu-nav >li >a{
      display:block;
      padding: 10px 15px;
      color: gray;
      text-decoration: none;
+}
+/* ************    content сайта      *********/
 
-    }
-
-.row-list-product .row-list-info .row-list-clients{
+.row-product ,.row-info ,.row-clients{
     width: 100%;
-
-
- }
-.row-list-product .row-list-info .row-list-clients{
-    margin-right: -15px;
-    margin-left: -15px;
-
-
- }
-.row-list-clients{
+}
+.row-product .row-clients{
     border-top: 1px solid #d2d2d2;
     border-bottom: 1px solid #d2d2d2;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row-clients{
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    margin: 20px auto;
+}
+.row-info{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+/* ************   Latest News      *********/
+
+
+
+.list-info{
+    margin-left: -20px;
+    margin-right: -24px;
 }
 .list-info >li{
+    margin-right: 5px;
+    margin-left: 5px;
     display: inline;
-
-    border: 1px solid #ccc;
     float: left;
-    width: 33%;
+    width: 31%;
 }
-.colomn-product >li{
+.row-contact{
+    border-bottom:2px dotted gray ;
+    display: flex;
+}
+.row-news{
+    border-bottom:2px dotted gray ;
+}
+.block-img{
+    float: left;
+}
+
+.col-data{
+    float: left;
+
+}
+/* ************   featured Products     *********/
+.column-product >li{
     padding: 2em;
     width: 50%;
     float: left;
@@ -123,10 +157,17 @@ border-bottom: 2px solid  #bfc0c3;
 .img-product-btm >li{
     display: inline-block;
 }
-.clearfix {
-    clear: both;
+.arrow-left{
+    float: left;
+    width: 33%;
 }
-.bloc-title{
+.arrow-right{
+    float: right;
+}
+
+/* ************   block- our clients     *********/
+
+.block-title-brand{
     font-size: 18px;
     text-transform: uppercase;
     color: grey;
@@ -148,6 +189,7 @@ border-bottom: 2px solid  #bfc0c3;
 
 }
 
+/* ************   footer сайта      *********/
 .footer-logo{
     text-align: center;
 }
@@ -166,4 +208,7 @@ border-bottom: 2px solid  #bfc0c3;
     text-decoration: none;
 
 }
+
+
+
 
