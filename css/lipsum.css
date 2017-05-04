@@ -4,11 +4,17 @@ body{
     font-size: 14px;
     margin: 0;
     color: gray;
+    background-image: url(https://static.journal-theme.com/15/image/data/journal2/pattern/brickwall_@2X.png);
+    background-repeat: repeat;
+    background-position: center top;
+    background-size: auto;
+    background-attachment: fixed;
+    background-color: rgb(244, 244, 244);
 
 }
 .body-backrg{
 
-    background-color: #a9a9a999;
+
 
 }
 * {
@@ -137,11 +143,11 @@ button{
 
 
 
-.list-info{
+.columns-info{
     margin-left: -20px;
     margin-right: -24px;
 }
-.list-info >li{
+.columns-info >li{
     margin-right: 5px;
     margin-left: 5px;
     display: inline;
@@ -158,11 +164,36 @@ button{
 .block-img{
     float: left;
 }
+.block-img-contact >img{
+   width: 43px;
+    height: 43px;
+}
 
 .col-data{
+    min-height: 50px;
+    padding: 0 15px 5px 0;
+    position: relative;
     float: left;
+    width: 33%;
 
 }
+
+.column-wrap-data{
+    border-right: 2px solid gray;
+    padding: inherit;
+}
+.column-wrap-contact{
+    min-height: 50px;
+    padding: 0px 41px 0px 7px;
+
+}
+
+.column-wrap-text {
+    border-right: 2px solid gray;
+    min-height: 50px;
+    padding: 0 10px 80px 0;
+}
+
 /* ************   featured Products     *********/
 .row-product{
 
@@ -206,6 +237,14 @@ button{
     font-size: 18px;
     text-transform: uppercase;
     color: grey;
+    display: block;
+    background: white;
+    width: 147px;
+    margin-top: -24px;
+    margin-left: 40px;
+    padding-left: 10px;
+}
+.line-through{
     display: block;
     background: white;
     width: 147px;
