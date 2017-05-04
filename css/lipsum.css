@@ -206,6 +206,12 @@ button{
     font-size: 18px;
     text-transform: uppercase;
     color: grey;
+    display: block;
+    background: white;
+    width: 147px;
+    margin-top: -24px;
+    margin-left: 40px;
+    padding-left: 10px;
 }
 .list-brands{
     width: 100%;
