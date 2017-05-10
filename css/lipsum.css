@@ -174,10 +174,11 @@ button{
     width: 31%;
 }
 .row-contact{
-
-    border-bottom:2px dotted gray ;
+    border-bottom: 2px dotted gray;
     display: flex;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 .row-news{
     border-bottom:2px dotted gray ;
@@ -224,6 +225,14 @@ button{
     padding-bottom: 8px;
 }
 
+.block-tel{
+    margin-top: 10px;
+    padding-top: initial;
+}
+.columns-inf .li{
+    padding: 2em;
+}
+
 /* ************   featured Products     *********/
 .row-product{
 
@@ -232,8 +241,8 @@ button{
     padding: 2em;
     width: 50%;
     float: left;
-    margin-right: 0%;
-    display: inline;
+    /*margin-right: 0%;*/
+    /*display: inline;*/
 }
 .img-product >img{
     width: 100%;
