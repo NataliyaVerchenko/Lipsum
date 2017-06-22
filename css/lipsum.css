@@ -233,16 +233,17 @@ button{
     opacity: 0.5;
 }
 .column-wrap-data{
-    height: 300px;
+
     border-right: 2px solid #ededed;
     padding-right: 10px;
 }
 .column-wrap-contact{
-    height: 300px;
+
      padding-left: 10px;
     border-left: 2px solid #ededed;
 }
 .row-news{
+display:flex;
 padding:0;
 }
 
