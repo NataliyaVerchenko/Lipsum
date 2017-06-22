@@ -12,11 +12,6 @@ body{
     background-color: rgb(244, 244, 244);
 
 }
-.body-backrg{
-
-
-
-}
 * {
     box-sizing: border-box;
 }
@@ -43,22 +38,13 @@ h4{
 .wrapper{
     background-color: white;
      max-width: 1100px;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top:20px;
-     margin-bottom:20px;
-
-    border-top:3px solid orange;
+     margin: 20px auto;
+     border-top:3px solid orange;
      border-left: 1px solid grey;
      border-right: 1px solid grey;
-    border-bottom: 1px solid grey;
-
+     border-bottom: 1px solid grey;
     overflow: hidden;
  }
-.main{
-    width:100%;
-}
-
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -68,27 +54,13 @@ h4{
 .clearfix {
     clear: both;
 }
-.no-border{
-    border-bottom: none;
-}
+
 button{
     background-color: black;
     color: #fff;
     float: right;
 }
-
 /* ************    Шапка сайта      *********/
- .header-logo{
-     margin-right: -15px;
-     margin-left: -15px;
- }
- .col-logo{
-     float:left;
-
-     width: 33.33333333%;
-     padding-right: 15px;
-     padding-left: 15px;
- }
 .col-logo >img{
     width: 100%;
 }
@@ -101,94 +73,55 @@ button{
      margin-top: 30px;
  }
 .menu-nav{
-    padding-left: 0;
-    list-style: none;
     border-top: 2px solid  #bfc0c3;
     border-bottom: 2px solid  #bfc0c3;
 }
 .menu-nav >li{
       display: inline-block;
-      text-transform: uppercase;
-
-      font-size: large;
+      margin: 0 5px;
 }
 .menu-nav >li >a{
      display:block;
      padding: 10px 15px;
      color: gray;
+     text-transform: uppercase;
      text-decoration: none;
-    /*background: linear-gradient(-37deg,#c37b0f, #f1f1f1);*/
+      font-size: large;
 }
 .menu-nav >li >a:hover{
     text-decoration-line: underline;
     color:#c37b0f ;
 }
 /* ************    content сайта      *********/
-
-.row-product ,.row-info ,.row-clients{
-    width: 100%;
-}
-.row-product .row-clients{
+.view-header,.columns-info, .col-logo,.list-brands,.column-product{
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+.row-product .row-clients,.row-clients{
     border-top: 1px solid #d2d2d2;
     border-bottom: 1px solid #d2d2d2;
     margin-right: -15px;
     margin-left: -15px;
 }
 .row-clients{
-    border-top: 1px solid #d2d2d2;
-    border-bottom: 1px solid #d2d2d2;
     margin: 20px auto;
 }
-/*.row-info{
-    border-top: 2px solid lightgrey;
-    margin: 0;
-    padding: 10px 20px 10px 20px;
-}*/
-/* ************   Latest News      *********/
-/*columns-info{*/
-    /*width: 100%;*/
-    /*margin-left: -20px;*/
-    /*margin-right: -24px;*/
-/*}*/
-/*.col-data{*/
-    /*width: 180px;*/
-    /*float: left;*/
-
-/*}*/
-/*.col-text{}*/
-/*.col-contacts{*/
-    /*width: 13em; float: right; margin-right: -15em; padding: 1em;*/
-/*}*/
-
-
-
 .columns-info{
-    margin-left: -20px;
-    margin-right: -24px;
+    border-top: 2px solid rgba(178, 188, 189, 0.22);
+    display: flex;
 }
-.columns-info >li{
-    margin-right: 5px;
-    margin-left: 18px;
-    display: inline;
+.columns-info >li,.col-data,.col-logo{
     float: left;
-    width: 31%;
+    width: 33%;
 }
-.row-contact{
-    /*border-bottom: 2px dotted gray;*/
-    /*display: flex;*/
-    /*padding-top: 10px;*/
-    /*padding-bottom: 10px;*/
-    /*text-align: center;*/
-
-
+.row-contact,.row-news{
     border-bottom: 2px dotted gray;
-    display: table;
-     width: 100%;
+    display: flex;
     padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
 }
-.row-news{
-    border-bottom:2px dotted gray ;
-}
+
 .block-img{
     float: left;
 }
@@ -198,75 +131,38 @@ button{
     float: left;
     margin-right: 10px;
 }
-
+.col-contacts,
+.col-text,
 .col-data{
-    min-height: 50px;
-    padding: 0 15px 5px 0;
-    position: relative;
-    float: left;
-    width: 33%;
-
+       padding: 5px;
 }
-
-.column-wrap-data{
-    border-right: 2px solid gray;
-    padding: inherit;
-}
-.column-wrap-contact{
-    min-height: 50px;
-    padding: 0px 41px 0px 7px;
-
-}
-
-.column-wrap-text {
-    border-right: 2px solid gray;
-    min-height: 50px;
-    padding: 0 10px 80px 0;
-}
-.col-contacts{
-    padding-bottom: 8px;
-}
-.col-text{
-    padding-bottom: 8px;
-}
-.col-data{
-    padding-bottom: 8px;
-}
-
 .block-tel{
     margin-top: 10px;
-    padding-top: initial;
 }
-.columns-inf .li{
-    padding: 2em;
-}
-
 /* ************   featured Products     *********/
-.row-product{
-
-}
 .column-product >li{
-    padding: 2em;
+    padding: 1em;
     width: 50%;
     float: left;
-    /*margin-right: 0%;*/
-    /*display: inline;*/
+}
+.img-product-btm{
+    padding: 5px;
+    text-align: center;
+}
+.img-product-btm >span{
+    display: inline-block;
 }
 .img-product >img{
     width: 100%;
 }
-.img-product-btm >li{
-    display: inline-block;
-}
 .arrow-left{
     float: left;
-    width: 33%;
 }
 .arrow-right{
     float: right;
 }
 .col-wrapper{
-    padding: 0 0 20px 0;
+    padding: 0 0 5px 0;
     margin: 0;
     border: 2px solid #c6bfbf;
 }
@@ -299,45 +195,23 @@ button{
     margin-left: 40px;
     padding-left: 10px;
 }
-.list-brands{
+.list-brands >li{
+  display: inline-block;
+  width: 16%;
+}
+.img-brands >img{
     width: 100%;
 }
-.list-brands >li{
-    padding-right: 5px;
-    padding-left: 5px;
-    display: inline-block;
-
-}
-.img-brands{
-    width: 16%;
-}
-.list-brands >li >.img-brands{
-
-    margin-left: -20px;
-    margin-right: -24px;
-
-}
-.img-brands >.img{
-    width: 100%; display: block;
-
-}
-
 /* ************   footer сайта      *********/
 .footer{
-    margin: 0;
     padding: 30px 0;
 }
-
-.footer-logo{
+.footer-logo >a{
+    display:block;
     text-align: center;
 }
 .footer-menu >li{
     display: inline-block;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    font-size: 10px;
-
 }
 .footer-menu >li >a{
     border-right:1px solid gray;
@@ -345,19 +219,31 @@ button{
     padding: 5px 15px;
     color: gray;
     text-decoration: none;
-
+     text-transform: uppercase;
+     font-size: 10px;
 }
+.footer-navbar,.footer-text-info{
+    text-align: -webkit-center;
+    }
 .no-border{
     border-bottom: none;
 }
 .wrp:hover{
     background-color: #284ac3;
     opacity: 0.5;
-
 }
-.row-wrapper{
-    margin-left: -15px;
-    margin-right: -15px;
+.column-wrap-data{
+    height: 300px;
+    border-right: 2px solid #ededed;
+    padding-right: 10px;
+}
+.column-wrap-contact{
+    height: 300px;
+     padding-left: 10px;
+    border-left: 2px solid #ededed;
+}
+.row-news{
+padding:0;
 }
 
 
