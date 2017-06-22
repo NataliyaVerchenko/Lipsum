@@ -246,6 +246,8 @@ button{
 display:flex;
 padding:0;
 }
+.col-data >a{
+display:block;}
 
 
 
