@@ -249,6 +249,22 @@ padding:0;
 .col-data >a{
 display:block;}
 
+@media(max-width: 780px){
+.row-clients{
+
+    display:none;
+}
+.columns-info{
+    display: grid;
+    width: 100%;}
+.columns-info >li{
+width:100%
+}
+.column-product >li{
+width: 100%;
+}
+}
+
 
 
 
